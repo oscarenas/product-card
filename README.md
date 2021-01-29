@@ -1,6 +1,6 @@
 # Examen técnico - Oscar Arenas
 
-Examen tecnico de Dafiti.
+Examen tecnico.
 
 ![alt text](./public/productCard.gif)
 
