@@ -1,0 +1,17 @@
+.product-size {
+  scrollbar-color: #8e8e8e #FFF;
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+.product-size::-webkit-scrollbar {
+  @apply h-2;
+}
+
+.product-size::-webkit-scrollbar-track {
+  @apply bg-white border-solid border border-gray-200 rounded;
+}
+
+.product-size::-webkit-scrollbar-thumb {
+  @apply bg-dafitiGray rounded;
+}

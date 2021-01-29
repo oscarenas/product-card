@@ -1,0 +1,27 @@
+details>summary {
+  @apply list-none;
+}
+
+details>summary::-webkit-details-marker {
+  @apply hidden;
+}
+
+details>summary::before {
+  content: url('/arrow.svg');
+  margin-top: 5px;
+  width: 16px;
+  float: right;
+}
+
+details[open]>summary::before {
+  content: url('/arrow.svg');
+  margin-top: 0;
+  width: 16px;
+  transform: rotate(180deg);
+  float: right;
+
+}
+
+details[open]>summary {
+  margin-bottom: 0.5rem;
+}

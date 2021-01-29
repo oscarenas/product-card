@@ -1,0 +1,14 @@
+.radios-ghost input[type=radio] {
+  @apply absolute w-10 left-1 top-1 h-10 z-0 inline-block p-8;
+  z-index: -1;
+}
+
+.radios-ghost input[type=radio]+label {
+  background: #ececec;
+  @apply flex justify-center font-bold items-center w-12 h-12 mr-4 rounded-full text-titleGray inline-flex cursor-pointer transition;
+}
+
+
+.radios-ghost input[type=radio]:checked+label {
+  @apply border-gray-300 bg-secondary text-white transform scale-95;
+}
